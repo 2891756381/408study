@@ -16,3 +16,4 @@ void HeadInsert(LNode* Head, ElemType e);
 void PrintList(LNode* Head);
 void EndInsert(LNode* End, ElemType e);
 void DelList(LNode*& Head);
+void ReserveList(LNode* head);

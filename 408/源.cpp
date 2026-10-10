@@ -15,6 +15,10 @@ int main() {
 
 	PrintList(Head);
 
+
+	ReverseList(Head);
+	PrintList(Head);
+
 	LNode* End = Head;
 	while (End->next != NULL) {
 		End = End->next;
